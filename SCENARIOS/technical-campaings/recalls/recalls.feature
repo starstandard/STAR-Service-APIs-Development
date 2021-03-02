@@ -3,7 +3,7 @@ Feature: Vehicle Recalls
 
 Scenario: Get available recalls for a Vehicle
   description: Retrieve all recalls available for a Vehicle by providing the VIN
-    Given a consuming system requires vehicle recalls details 
+    Given a consuming system requires vehicle recall details 
     When the consuming system requests the detail
     And the request operation is get
     And request path is /vehicles/{vehicle-id}/criterias/{vehicle-criteria-id}
